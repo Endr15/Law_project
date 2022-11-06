@@ -1,0 +1,431 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width: 1400px) {
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width: 1200px) {
+	.navbar {
+		margin: 40px 46px 0 46px;
+	}
+	.start-content__title {
+		font-size: 28px;
+	}
+	.start {
+		margin-left: 46px;
+	}
+}
+
+/* md <= Large (lg) */
+@media (max-width: 992px) {
+	/* NAVBAR */
+
+	.navbar {
+		margin: 40px 16px 0 16px;
+	}
+	.logo {
+		transform: scale(0.75);
+		width: auto;
+	}
+	.menu-item {
+		padding: 0 6px;
+		font-size: 16px;
+	}
+
+	/* START */
+
+	.start {
+		margin-left: 25px;
+	}
+	.start-content {
+		padding-top: 100px;
+	}
+	.start-content__desc {
+		font-size: 14px;
+	}
+	.start-img {
+		height: 400px;
+	}
+
+	.phone-desc {
+		font-size: 12px;
+		padding-left: 8px;
+	}
+	.phone-numbers {
+		font-size: 18px;
+		padding-left: 8px;
+	}
+	.phone-img {
+		width: 50px;
+		height: 50px;
+		background-size: 25px;
+	}
+
+	button {
+		font-size: 10px;
+	}
+
+	/* SITE */
+
+	.site-block {
+		padding: 75px 55px;
+	}
+
+	.title {
+		font-size: 38px;
+	}
+	.desc {
+		font-size: 14px;
+	}
+
+	.aboutService-content__block {
+		margin-right: 25px;
+	}
+	.block-text__title {
+		font-size: 18px;
+		max-width: 240px;
+
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.block-text__desc {
+		font-size: 14px;
+	}
+
+	.block-img {
+		width: 200px;
+		height: 200px;
+		background-size: 200px;
+	}
+
+	/* SLIDER */
+
+	.slider-block__title {
+		font-size: 22px;
+		max-width: 150px;
+	}
+	.slider-block__review {
+		font-size: 12px;
+	}
+	.swiper-slide {
+		padding: 0 10px;
+	}
+	.swiper-slide__block {
+		margin-right: 14px;
+	}
+	.slider-block__img {
+		height: 150px;
+		margin-left: 15%;
+	}
+	.swiper-button-next {
+		display: none;
+	}
+	.swiper-button-prev {
+		display: none;
+	}
+
+	.footer {
+		padding: 40px 35px;
+	}
+	.footer-block {
+		max-width: 200px;
+	}
+
+	.footer-block__title {
+		font-size: 18px;
+		line-height: 100%;
+	}
+	.footer-block__title2 {
+		font-size: 16px;
+		line-height: normal;
+	}
+
+	.footer-block__list-item {
+		font-size: 12px;
+	}
+	.footer-block__list-item.footer-block__list-item2 {
+		font-size: 14px;
+		padding-top: 0;
+	}
+}
+
+/* sm <= Medium (md) */
+@media (max-width: 768px) {
+	.logo-text {
+		padding-left: 10px;
+	}
+
+	.start {
+		margin-bottom: 100px;
+	}
+
+	.start-content__title {
+		font-size: 20px;
+	}
+	.start-content__desc {
+		font-size: 12px;
+	}
+
+	.start-content__footer {
+		position: absolute;
+		padding-top: 0;
+	}
+	.phone-img {
+		display: none;
+	}
+	.phone-numbers {
+		font-size: 14px;
+	}
+
+	/* ABOUT SERVICE SLIDER */
+
+	.aboutService-content__block {
+		display: none;
+	}
+
+	.aboutService-content__block2 {
+		z-index: 1;
+		display: block;
+	}
+
+	.aboutService-content__swiper {
+		display: block;
+	}
+
+	/* SLIDER ABOUT */
+
+	.swiper-slide-mobile {
+		display: flex;
+	}
+	.swiper-slide__block-mobile {
+		display: none;
+	}
+	.swiper-slide__block {
+		margin-right: 20px;
+	}
+
+	/* FOOTER */
+
+	.footer {
+		padding: 40px 15px;
+	}
+
+	.footer-block {
+		max-width: 2000px;
+	}
+
+	.footer-block__title {
+		font-size: 16px;
+	}
+	.footer-block__title2 {
+		font-size: 14px;
+	}
+
+	.footer-block-time {
+		padding-left: 15px;
+	}
+}
+
+/* xs <= Small (sm) */
+@media (max-width: 576px) {
+	/* LOGO */
+
+	.logo-title {
+		font-size: 16px;
+	}
+	.logo-desc {
+		font-size: 12px;
+	}
+
+	/* MENU */
+
+	.menu-toggle {
+		display: block;
+	}
+	.menu-items {
+		display: none;
+	}
+	.menu-items__active {
+		display: flex;
+	}
+
+	.start-img {
+		display: none;
+	}
+
+	.title {
+		font-size: 28px;
+		line-height: normal;
+	}
+	.aboutService-text__desc {
+		font-size: 12px;
+	}
+
+	.block-text__title {
+		line-height: normal;
+	}
+
+	.swiper {
+		display: none;
+	}
+
+	.reviews {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.slider-review {
+		display: block;
+	}
+
+	.reviews-block {
+		margin-top: 50px;
+		background-color: #fff;
+		border-radius: 10px;
+	}
+	.reviews-block__content {
+		display: flex;
+		align-items: center;
+	}
+
+	.reviews-block__img {
+		height: 128px;
+		margin-left: 20px;
+	}
+	.reviews-block__text {
+		margin-left: 20px;
+		margin-right: 10px;
+	}
+	.reviews-block__title {
+		margin-top: 20px;
+
+		font-weight: 700;
+		font-size: 18px;
+		color: var(--text-2);
+		text-align: center;
+	}
+	.reviews-block__desc {
+		text-align: center;
+
+		font-weight: 400;
+		font-size: 8px;
+		color: var(--text-3);
+	}
+
+	/* FOOTER */
+
+	.footer {
+		display: flex;
+		flex-direction: column;
+		padding-left: 50px;
+		padding-bottom: 20px;
+	}
+	.footer-block {
+		padding-bottom: 25px;
+	}
+	.footer-block-time {
+		padding-left: 0;
+	}
+
+	.footer-block__title {
+		font-size: 18px;
+	}
+	.footer-block__title2 {
+		font-size: 16px;
+	}
+}
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width: 0) {
+}
+
+/* Small (sm) */
+@media (min-width: 576px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+}
+
+/* Large (lg) */
+@media (min-width: 992px) {
+}
+
+/* Extra large (xl) */
+@media (min-width: 1200px) {
+	.text {
+		font-size: 18px;
+	}
+}
+
+/* Extra extra large (xxl) */
+@media (min-width: 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 1600px) {
+	.navbar {
+		margin: 40px 150px 0 150px;
+	}
+	.start {
+		margin-left: 150px;
+		margin-right: 156px;
+	}
+
+	.start-content__title {
+		font-size: 48px;
+		max-width: 750px;
+	}
+	.title {
+		font-size: 58px;
+	}
+	.block-text__title {
+		font-size: 37px;
+	}
+	.slider-block__title {
+		font-size: 38px;
+	}
+	.footer-block__title {
+		font-size: 38px;
+		line-height: normal;
+		max-width: 400px;
+	}
+	.footer-block__title2 {
+		font-size: 30px;
+	}
+
+	.start-content__desc {
+		font-size: 24px;
+		max-width: 750px;
+	}
+	.phone-desc {
+		font-size: 22px;
+	}
+	.desc {
+		font-size: 24px;
+	}
+	.block-text__desc {
+		font-size: 24px;
+		margin-top: 25px;
+	}
+	.slider-block__review {
+		font-size: 20px;
+	}
+	.footer-block__list-item {
+		font-size: 24px;
+		margin-top: 15px;
+		max-width: 400px;
+	}
+
+	.start-content__footer {
+		padding-right: 125px;
+	}
+	.footer {
+		justify-content: space-evenly;
+	}
+}
